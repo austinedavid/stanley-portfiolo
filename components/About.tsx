@@ -108,7 +108,7 @@ const About = () => {
           <AboutCenter />
           <CoreValues />
           <div className=" md:hidden bg-white py-4 rounded-2xl">
-            <LeftHeroIcons />
+            <LeftHeroIcons isHero={false} />
           </div>
         </div>
       </Container>
